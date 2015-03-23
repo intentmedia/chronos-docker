@@ -24,7 +24,7 @@ function stop_containers {
 function test_application {
     echo "Test Application"
     docker pull $CONTAINER
-    docker run --rm $CONTAINER ./run_tests.sh
+    #docker run --rm $CONTAINER ./run_tests.sh
 }
 
 function remove_existing_containers_and_images {
