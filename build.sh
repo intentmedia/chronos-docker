@@ -2,7 +2,7 @@
 
 set -e
 
-CONTAINER='intentmedia/vertica-snapshotter'
+CONTAINER='intentmedia/chronos'
 DOCKER_REPO_USER='intentmediateamcity'
 export ANSIBLE_HOST_KEY_CHECKING=false
 
